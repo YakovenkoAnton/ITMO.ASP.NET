@@ -52,7 +52,6 @@ C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\bin\roslyn\
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\ITMO.ASP.NET.csprojAssemblyReference.cache
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\ITMO.ASP.NET.csproj.CoreCompileInputs.cache
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\ITMO.ASP.NET.csproj.CopyComplete
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\ITMO.ASP.NET.dll

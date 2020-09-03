@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Collections.Generic;
 
-namespace ITMO.ASP.NET.App_Code
+
+namespace ITMO.ASP.NET
 {
     public class ResponseRepository
     {
-   
+
         private static ResponseRepository repository = new ResponseRepository();
         private List<GuestResponse> responses = new List<GuestResponse>();
         public static ResponseRepository GetRepository()

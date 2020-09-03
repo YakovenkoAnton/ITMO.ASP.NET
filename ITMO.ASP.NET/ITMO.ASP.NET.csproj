@@ -68,12 +68,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="seeyouthere.html" />
     <Content Include="Reg.aspx" />
+    <Content Include="sorryyoucantcome.html" />
     <Content Include="Styles.css" />
+    <Content Include="Summary.aspx" />
     <Content Include="Web.config" />
     <Content Include="Start.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\ResponseRepository.cs" />
     <Compile Include="Reg.aspx.cs">
       <DependentUpon>Reg.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -88,12 +92,18 @@
     <Compile Include="Start.aspx.designer.cs">
       <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\ResponseRepository.cs" />
-    <Compile Include="GuestResponse.cs" />
+    <Compile Include="App_Code\GuestResponse.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Summary.aspx.cs">
+      <DependentUpon>Summary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Summary.aspx.designer.cs">
+      <DependentUpon>Summary.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

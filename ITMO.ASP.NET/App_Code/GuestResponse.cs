@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 
 namespace ITMO.ASP.NET
+
+
 {
     public class GuestResponse
     {
