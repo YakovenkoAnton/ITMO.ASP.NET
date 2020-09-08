@@ -7,11 +7,11 @@
 // </автоматически создаваемое>
 //------------------------------------------------------------------------------
 
-namespace ITMO.ASP.NET
+namespace ITMO.ASP.NET.Lab3
 {
 
 
-    public partial class WebForm1
+    public partial class Start
     {
 
         /// <summary>

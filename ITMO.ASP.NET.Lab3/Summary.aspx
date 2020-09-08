@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Summary.aspx.cs" Inherits="ITMO.ASP.NET.Summary" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Summary.aspx.cs" Inherits="ITMO.ASP.NET.Lab3.Summary" %>
 
 <!DOCTYPE html>
 
@@ -22,12 +22,24 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <% var yesData = ITMO.ASP.NET.ResponseRepository.GetRepository().GetAllResponses().Where(r => r.WillAttend.Value);
+                    <% var yesData = ITMO.ASP.NET.Lab3.ResponseRepository.GetRepository().GetAllResponses().Where(r => r.WillAttend.Value);
                                 foreach (var rsvp in yesData) { string htmlString = String.Format
                                 ("<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td>", rsvp.Name, rsvp.Email, rsvp.Phone, rsvp.Rdata);
                     Response.Write(htmlString); } %>
                 </tbody>
             </table>
+            <h3>Участники без доклада: </h3> 
+            <table> 
+                <thead> 
+                    <tr> 
+                        <th>Имя</th> 
+                        <th>Email</th> 
+                        <th>Телефон</th> 
+                    </tr> 
+
+                </thead>
+
+<tbody> <%= GetNoShowHtml()%> </tbody> </table>
         </div>
     </form>
 </body>

@@ -5,7 +5,8 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace ITMO.ASP.NET
+namespace ITMO.ASP.NET.Lab3
+
 {
     public class Global : System.Web.HttpApplication
     {

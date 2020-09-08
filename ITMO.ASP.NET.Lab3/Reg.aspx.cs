@@ -5,7 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ITMO.ASP.NET
+
+namespace ITMO.ASP.NET.Lab3
 {
     public partial class Reg : System.Web.UI.Page
     {
@@ -17,19 +18,14 @@ namespace ITMO.ASP.NET
                 ResponseRepository.GetRepository().AddResponse(rsvp);
                 if (rsvp.WillAttend.HasValue && rsvp.WillAttend.Value) 
                 {
-                    Response.Redirect("seeyouthere.html");
+                    Response.Redirect("seeyouthere.html"); 
                 }
                 else 
-                { 
+                {
                     Response.Redirect("sorryyoucantcome.html"); 
                 }
+
             }
-
-        }
-
-        protected void name_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

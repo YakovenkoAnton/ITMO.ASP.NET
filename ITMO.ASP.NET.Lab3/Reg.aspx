@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Reg.aspx.cs" Inherits="ITMO.ASP.NET.Reg" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Reg.aspx.cs" Inherits="ITMO.ASP.NET.Lab3.Reg" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,8 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <link rel="stylesheet" href="Styles.css" />
+<link rel="stylesheet" href="Styles.css" />
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -15,18 +16,20 @@
             <p></p>
         </div>
         <div> 
-            <label>Ваше имя:</label><asp:TextBox ID="name" runat="server" OnTextChanged="name_TextChanged"></asp:TextBox> 
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="name" ErrorMessage="&quot;Заполните поле имени&quot;" ForeColor="Red">&quot;Не оставляйте поле пустым&quot;</asp:RequiredFieldValidator>
-        </div>
-        <div> 
-            <label>Ваш email:</label><asp:TextBox ID="email" runat="server"></asp:TextBox> </div> <div> <label>Ваш телефон:</label><asp:TextBox ID="phone" runat="server"></asp:TextBox>
+            <label>Ваше имя:</label><asp:TextBox ID="name" runat="server"></asp:TextBox> 
         </div> 
-        <div>
+        <div> 
+            <label>Ваш email:</label><asp:TextBox ID="email" runat="server"></asp:TextBox> 
+        </div> 
+        <div> 
+            <label>Ваш телефон:</label><asp:TextBox ID="phone" runat="server"></asp:TextBox> 
+        </div> 
+        <div> 
             <label>Вы будете делать доклад?</label> <asp:CheckBox ID="CheckBoxYN" runat="server" /> 
         </div>
-<div>
-<button type="submit">Отправить ответ на приглашение RSVP</button>
-</div>
+        <div>
+            <button type="submit">Отправить ответ на приглашение RSVP</button>
+        </div>
     </form>
 </body>
 </html>

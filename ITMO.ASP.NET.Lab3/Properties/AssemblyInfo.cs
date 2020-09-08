@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных с этой сборкой.
-[assembly: AssemblyTitle("ITMO.ASP.NET")]
+[assembly: AssemblyTitle("ITMO.ASP.NET.Lab1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ITMO.ASP.NET")]
+[assembly: AssemblyProduct("ITMO.ASP.NET.Lab1")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов typelib, если этот проект видим для COM
-[assembly: Guid("b7a32eff-75c1-44a0-b4c4-7a825cc0ce62")]
+[assembly: Guid("e6defa86-4d8b-45d3-a591-bbef13299a18")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

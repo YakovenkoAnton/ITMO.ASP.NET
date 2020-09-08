@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Start.aspx.cs" Inherits="ITMO.ASP.NET.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Start.aspx.cs" Inherits="ITMO.ASP.NET.Lab1.Start" %>
 
 <!DOCTYPE html>
 
@@ -6,14 +6,12 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <link rel="stylesheet" href="Styles.css" />
+<link rel="stylesheet" href="Styles.css" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <div class="rek"> 
-                <h1>Приглашение на семинар</h1> 
-                <p>Вы приглашены на наш семинар</p> 
+            <div class="rek"> <h1>Приглашение на семинар</h1> <p>Вы приглашены на наш семинар</p> 
                 <p>Подтвердите свое согласие, пройдя регистрацию</p> 
 
             </div> 
