@@ -56,3 +56,6 @@ C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\I
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\ITMO.ASP.NET.csproj.CopyComplete
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\ITMO.ASP.NET.dll
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\ITMO.ASP.NET.pdb
+C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\bin\App_Code\ResponseRepository.cs
+C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\bin\App_Code\GuestResponse.cs
+C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET\obj\Debug\ITMO.ASP.NET.csprojAssemblyReference.cache

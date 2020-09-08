@@ -33,6 +33,15 @@ namespace ITMO.ASP.NET
         protected global::System.Web.UI.WebControls.TextBox name;
 
         /// <summary>
+        /// RequiredFieldValidator1 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+
+        /// <summary>
         /// email элемент управления.
         /// </summary>
         /// <remarks>

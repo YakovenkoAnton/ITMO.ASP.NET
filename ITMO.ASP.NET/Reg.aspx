@@ -15,7 +15,8 @@
             <p></p>
         </div>
         <div> 
-            <label>Ваше имя:</label><asp:TextBox ID="name" runat="server"></asp:TextBox> 
+            <label>Ваше имя:</label><asp:TextBox ID="name" runat="server" OnTextChanged="name_TextChanged"></asp:TextBox> 
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="name" ErrorMessage="&quot;Заполните поле имени&quot;" ForeColor="Red">&quot;Не оставляйте поле пустым&quot;</asp:RequiredFieldValidator>
         </div>
         <div> 
             <label>Ваш email:</label><asp:TextBox ID="email" runat="server"></asp:TextBox> </div> <div> <label>Ваш телефон:</label><asp:TextBox ID="phone" runat="server"></asp:TextBox>

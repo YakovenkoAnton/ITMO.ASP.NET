@@ -26,5 +26,10 @@ namespace ITMO.ASP.NET
             }
 
         }
+
+        protected void name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

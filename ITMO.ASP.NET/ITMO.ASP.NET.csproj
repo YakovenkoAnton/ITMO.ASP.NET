@@ -77,7 +77,9 @@
     <Content Include="Start.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Code\ResponseRepository.cs" />
+    <Compile Include="App_Code\ResponseRepository.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Reg.aspx.cs">
       <DependentUpon>Reg.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -92,7 +94,9 @@
     <Compile Include="Start.aspx.designer.cs">
       <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
-    <Compile Include="App_Code\GuestResponse.cs" />
+    <Compile Include="App_Code\GuestResponse.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -117,6 +121,9 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
