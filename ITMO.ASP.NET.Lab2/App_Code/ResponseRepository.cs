@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ITMO.ASP.NET.Lab1.App_Code
-{
+namespace ITMO.ASP.NET.Lab2
+{ 
+    
     public class ResponseRepository
     {
         private static ResponseRepository repository = new ResponseRepository();
