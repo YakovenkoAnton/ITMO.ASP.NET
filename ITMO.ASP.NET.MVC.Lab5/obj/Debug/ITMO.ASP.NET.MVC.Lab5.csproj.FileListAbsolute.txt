@@ -84,3 +84,7 @@ C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab5\ob
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab5\obj\Debug\ITMO.ASP.NET.MVC.Lab5.csproj.CopyComplete
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab5\obj\Debug\ITMO.ASP.NET.MVC.Lab5.dll
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab5\obj\Debug\ITMO.ASP.NET.MVC.Lab5.pdb
+C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab5\bin\EntityFramework.dll
+C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab5\bin\EntityFramework.SqlServer.dll
+C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab5\bin\EntityFramework.xml
+C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab5\bin\EntityFramework.SqlServer.xml
