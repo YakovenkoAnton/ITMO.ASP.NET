@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 using ITMO.ASP.NET.MVC.Lab5.Models;
 using EntityState = System.Data.Entity.EntityState;
 
@@ -16,6 +17,7 @@ namespace ITMO.ASP.NET.MVC.Lab5.Controllers
         private CreditContext db = new CreditContext();
 
         // GET: Bids
+        [OutputCache(Duration = 60, Location = OutputCacheLocation.ServerAndClient)]
         public ActionResult Index()
         {
             return View(db.Bids.ToList());
