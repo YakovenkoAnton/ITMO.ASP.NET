@@ -34,7 +34,7 @@ namespace ITMO.ASP.NET.MVC.Lab5.Controllers
             // Добавляем новую заявку в БД 
             db.Bids.Add(newBid); 
             // Сохраняем в БД все изменения 
-            db.SaveChanges(); 
+            db.SaveChanges();
             return "Спасибо, <b>" + newBid.Name + "</b>, за выбор нашего банка. Ваша заявка будет рассмотрена в течении 10 дней.";
         }
 

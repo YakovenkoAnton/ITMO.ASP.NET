@@ -83,8 +83,8 @@ C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\bi
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\bin\ru\System.Web.WebPages.resources.dll
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\bin\ru\System.Web.WebPages.Deployment.resources.dll
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\bin\ru\System.Web.WebPages.Razor.resources.dll
-C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\obj\Debug\ITMO.ASP.NET.MVC.Lab6.csprojAssemblyReference.cache
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\obj\Debug\ITMO.ASP.NET.MVC.Lab6.csproj.CoreCompileInputs.cache
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\obj\Debug\ITMO.ASP.NET.MVC.Lab6.csproj.CopyComplete
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\obj\Debug\ITMO.ASP.NET.MVC.Lab5.dll
 C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\obj\Debug\ITMO.ASP.NET.MVC.Lab5.pdb
+C:\Users\index\source\repos\YakovenkoAnton\ITMO.ASP.NET\ITMO.ASP.NET.MVC.Lab6\obj\Debug\ITMO.ASP.NET.MVC.Lab6.csprojAssemblyReference.cache
