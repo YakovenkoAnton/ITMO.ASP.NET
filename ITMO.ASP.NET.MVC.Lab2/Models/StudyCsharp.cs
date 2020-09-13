@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web;
+using System.Collections;
 
 namespace ITMO.ASP.NET.MVC.Lab2.Models
 {
@@ -91,11 +92,18 @@ namespace ITMO.ASP.NET.MVC.Lab2.Models
     }
 
 
-    public class Triangle:Shape
+    public class Triangle:Shape, IComparable<Triangle>
     {
         //public double Sta { get; set; }
         public double Stb { get; set; }
         public double Stc { get; set; }
+
+        public int CompareTo(Triangle other)
+        {
+            if (this.Area == other.Area) return 0;
+            else if (this.Area > other.Area) return 1;
+            else return -1;
+        }
 
 
         public Triangle(double a, double b, double c) 
@@ -139,9 +147,16 @@ namespace ITMO.ASP.NET.MVC.Lab2.Models
 
     }
 
-    public class Circle:Shape
+    public class Circle:Shape, IComparable<Circle>
     {
         //public double St { get; set; }
+        public int CompareTo(Circle other) 
+        {
+            if (this.Area == other.Area) return 0; 
+            else if (this.Area > other.Area) return 1;
+            else return -1; 
+        }
+
         override public string Name
         {
             get 

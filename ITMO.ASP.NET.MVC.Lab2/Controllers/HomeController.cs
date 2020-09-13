@@ -28,8 +28,10 @@ namespace ITMO.ASP.NET.MVC.Lab2.Controllers
             //string res = ExeFactorial(5);
             //string res = ExeTriangle();
             //string res = ExeCircle();
-            string res = ExePolim();
+            //string res = ExePolim();
 
+            //string res = ExeCollection();
+            string res = ExeCollectionTriangle();
             return res;
         }
 
@@ -41,9 +43,52 @@ namespace ITMO.ASP.NET.MVC.Lab2.Controllers
             else return "Невозможно вычислить факториал";
         }
 
+        public string ExeCollection()
+        {
+            List<Circle> cirs = new List<Circle> 
+            {
+                new Circle(12),
+                new Circle(5),
+                new Circle(15),
+                new Circle(6) 
+            };
+            cirs.Add(new Circle(7));
+            cirs.Sort();
+
+            StringBuilder str = new StringBuilder(); 
+            foreach (Shape item in cirs)
+            {
+                str.AppendFormat("Это фигура {0}", item.Name + "<p>"); 
+            }
+            return str.ToString();
+        }
+
+        public string ExeCollectionTriangle()
+        {
+            List<Triangle> triangle = new List<Triangle>
+            {
+                new Triangle(1,2,2),
+                new Triangle(1,1,1),
+                new Triangle(5,4,4),
+                new Triangle(1,2,2),
+            };
+            triangle.Add(new Triangle(2, 2, 2));
+            triangle.Sort();
+
+            StringBuilder str = new StringBuilder();
+            foreach (Shape item in triangle)
+            {
+                str.AppendFormat("Это фигура {0}", item.Name + "<p>");
+            }
+            return str.ToString();
+        }
 
 
-        public string ExeStruct()
+
+
+
+
+            public string ExeStruct()
         {
             BankAccount goldBankAccount;
             goldBankAccount.accType = AccountType.Checking;
