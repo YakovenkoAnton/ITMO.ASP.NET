@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ITMO.ASP.NET.MVC.Stud_grades.Models.Person>
+
+@{
+    ViewBag.Title = "Учет успеваемости студентов";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Учет успеваемости студентов</h2>
+
+<p>
+    @Html.ActionLink("Создать новую запись", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Surname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Grade)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Grade)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id=item.PersonId }) |
+            @Html.ActionLink("Подробности", "Details", new { id=item.PersonId }) |
+            @Html.ActionLink("Удалить запись", "Delete", new { id=item.PersonId })
+        </td>
+    </tr>
+}
+
+</table>

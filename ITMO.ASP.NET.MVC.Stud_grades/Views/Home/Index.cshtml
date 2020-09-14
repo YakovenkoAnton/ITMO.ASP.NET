@@ -1,0 +1,12 @@
+﻿@{ ViewBag.Title = "Главная"; }
+<div class="row">
+    <div class="col-md-4">
+        <h3>Список студентов</h3> 
+        <table class = "table">
+            <tr><td><p>ID студента</p></td><td><p>Фамилия</p></td><td><p>  Имя  </p></td><td><p>Оценка</p></td></tr> @foreach (var c in ViewBag.Persons)
+            {
+                <tr><td><p>@c.PersonId</p></td><td><p>@c.Surname</p></td><td><p>@c.Name</p></td><td><p>@c.Grade</p></td></tr>
+}
+        </table> <p><a class="btn btn-default" href="/Person/Create">Создать новую запись &raquo;</a></p>
+    </div>
+</div>
